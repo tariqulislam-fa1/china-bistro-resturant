@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: maroon;
+}
+
+            /* header section */
+header{
+
+}
+.navbar{
+    background-color: yellow;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar .container{
+
+}
+            /*navbar brand*/
+.navbar-brand{
+
+}
+#navbar-logo{
+    float: left;
+}
+#navbar-logo img{
+    border-radius: 50%;
+
+}
+#navbar-resturant-title{
+    text-transform: uppercase;
+    float: left;
+    margin-top: -2px;
+    margin-left: 7px;
+}
+#resturant-name{
+
+}
+#resturant-name h1{
+    font-size: 1.9rem;
+    color: green;
+    text-shadow: 1px 1px black;
+
+}
+#resturant-certified{
+    color: black;
+    margin-top: -5px;
+
+}
+#resturant-certified i{
+    font-size: 1.3rem;
+}
+#resturant-certified span{
+    position: relative;
+    top: -5px;
+    font-size: 0.9rem;
+}
+
+            /* collapsable navbar */
+button{
+
+}
+#collapsibleNavbar{
+
+}
+           /* unordered list */
+.navbar-nav{
+    margin-top: -20px;
+}
+.nav-item{
+    
+}
+.nav-link{
+    margin-right: 5px;
+}
+.nav-link:hover{
+    background-color: white;
+}
+.nav-link span{
+    color: maroon;
+    margin-left: 8px;
+
+}
+.nav-link h5{
+    color: maroon;
+    font-size: 0.9rem;
+}
+            /* contact */
+#contact{
+    margin-left: 15px;
+}
+#contact h2{
+    color: maroon;
+}
+#contact p{
+    color: green;
+    text-align: right;
+    position: relative;
+    top: -12px;
+}
+
+
+        /* Main section */
+
+.container .jumbotron{
+    margin: 0px;
+    padding: 0px;
+    background: url("images/resturant.png") no-repeat;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+.img-fluid{
+    height: 700px;
+}
+
+#categoris{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#categories .row{
+
+}
+#menu-tile{
+    background: url("images/menu.jfif") no-repeat;
+}
+#special-tile{
+    background: url("images/special.jfif") no-repeat;
+}
+iframe span{
+    color: black;
+}
+#menu-tile,#special-tile,#map-tile{
+    width: 100%;
+    height: 240px;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 1px whitesmoke;
+}
+#menu-tile span,#special-tile span ,#map-tile span{
+    position: absolute;
+    display: inline-block;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding: 8px;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: .8;
+}
+#menu-tile:hover ,#special-tile:hover ,#map-tile:hover {
+    border: 2px solid whitesmoke;
+}
+
+
+                /* Footer section */
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .container{
+
+}
+footer .container .row{
+
+}
+#hours{
+    line-height: 27px;
+}
+#address{
+    line-height: 27px;
+}
+
+#testimonial{
+    line-height: 27px;
+}
+.copyright{
+    margin: 0px auto;
+}
+@media (min-width:992px) and (max-width:1199px){
+    #navbar-logo img{
+        height: 70px;
+        width: 70px;
+    }
+    #resturant-name h1{
+        font-size: 1.5rem;
+    }
+    #contact h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav{
+        margin-top: 0px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #navbar-logo{
+        display: none;
+    }
+    #resturant-name h1{
+        font-size: 1.5rem;
+    }
+    #contact h2{
+        font-size: 1.0rem;
+    }
+    #contact p{
+        font-size: 0.8rem;
+    }
+    .navbar-nav{
+        margin-top: 0px;
+    }
+    
+}
+@media (max-width:767px) and (min-width:576px){
+    #navbar-logo{
+        display: none;
+    }
+    #resturant-name h1{
+        font-size: 1.5rem;
+    }
+    #contact{
+        display: none;
+    }
+    .navbar-nav{
+        margin-top: 0px;
+        border-top: 1px solid white;
+    }
+    #map-tile{
+        margin-top: 20px;
+    }
+}
+@media (max-width:575px){
+    #navbar-logo{
+        display: none;
+    }
+    #resturant-name h1{
+        font-size: 1.5rem;
+    }
+    #contact{
+        display: none;
+    }
+    .navbar-nav{
+        margin-top: 0px;
+        border-top: 1px solid white;
+    }
+    #menu-tile,#special-tile,#map-tile{
+        width: 366px;
+        margin: 0px auto;
+    }
+    #menu-tile,#special-tile{
+        margin-bottom: 20px;
+    }
+    #hours, #address, #testimonial{
+        text-align: center;
+    }
+    #hours,#address{
+        border-bottom: 1px solid whitesmoke;
+    }
+}

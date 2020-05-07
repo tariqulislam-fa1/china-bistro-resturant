@@ -247,7 +247,7 @@ footer .container .row{
         border-top: 1px solid white;
     }
     #menu-tile,#special-tile,#map-tile{
-        width: 366px;
+        width: 340px;
         margin: 0px auto;
     }
     #menu-tile,#special-tile{
@@ -257,6 +257,17 @@ footer .container .row{
         text-align: center;
     }
     #hours,#address{
-        border-bottom: 1px solid whitesmoke;
+        
+    }
+    #testimonial{
+        width: 80%;
+        margin: 0px auto;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        padding: 15px 0px;
+    }
+    .copyright{
+        margin-top: 20px;
+        font-size: 0.8rem;
     }
 }

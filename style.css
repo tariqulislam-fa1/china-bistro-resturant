@@ -256,8 +256,9 @@ footer .container .row{
     #hours, #address, #testimonial{
         text-align: center;
     }
-    #hours,#address{
-        
+    #address{
+        width: 80%;
+        margin: 0px auto;
     }
     #testimonial{
         width: 80%;

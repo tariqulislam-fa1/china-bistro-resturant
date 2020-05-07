@@ -195,6 +195,10 @@ footer .container .row{
     .navbar-nav{
         margin-top: 0px;
     }
+    .copyright{
+        font-size: .9rem;
+        margin-top: 20px;
+    }
 }
 @media (min-width:768px) and (max-width:991px){
     #navbar-logo{
@@ -211,6 +215,10 @@ footer .container .row{
     }
     .navbar-nav{
         margin-top: 0px;
+    }
+    .copyright{
+        font-size: .9rem;
+        margin-top: 20px;
     }
     
 }
@@ -229,6 +237,10 @@ footer .container .row{
         border-top: 1px solid white;
     }
     #map-tile{
+        margin-top: 20px;
+    }
+    .copyright{
+        font-size: .9rem;
         margin-top: 20px;
     }
 }
